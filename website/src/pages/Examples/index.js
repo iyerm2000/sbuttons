@@ -2,6 +2,7 @@ import React, { useEffect, useState } from 'react'
 import Common from '../Common'
 import Sidebar from '../../components/Sidebar'
 import SidebarLink from '../../components/SidebarLink'
+import Footer from '../../components/Footer'
 import buttons from '../../data/buttons.json'
 import ButtonExample from '../../components/ButtonExample'
 
@@ -114,6 +115,8 @@ function Examples () {
                         <ButtonExample button={button.button} type={button.type} htmlContent={button.html} />}
                 </div>
             </div>
+            
+            <Footer />
         </div>
     )
 }
